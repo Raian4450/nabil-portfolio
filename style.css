@@ -9,11 +9,15 @@ h1 {
 
 }
 
+h3 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-top: 150px;
 }
@@ -25,6 +29,9 @@ section {
 
 .half-width img {
     width: 80%;
+    padding-left: 2%;
+
+
 }
 
 .link-button {
@@ -45,4 +52,26 @@ section {
     background-image: url(images/back2.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/back4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px grey;
+    border-right: 7px solid orange;
+}
+
+footer {
+    text-align: center;
 }
